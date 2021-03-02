@@ -1,0 +1,16 @@
+{
+  "name": "cap02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel index.js --watch --out-file index-compiled.js",
+    "build": "babel index.js --out-file index-compiled.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

@@ -1,0 +1,19 @@
+http://w3.unpocodetodo.info/jsblog/es6-babel.php
+
+"La configuracion del package.json del punto 8 se sustituye por el .babelrc"
+
+Ademas crear archivo 
+
+.babelrc con el siguiente contenido
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "node": "9.3.0"
+                }
+            }
+        ]
+    ]
+}
