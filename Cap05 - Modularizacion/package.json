@@ -1,0 +1,22 @@
+{
+  "name": "cap05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "core-util-is": "^1.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "babel": "babel index.js --watch --out-file index-compiled.js",
+    "build": "babel index.js --out-file index-compiled.js",
+    "start": "node --require babel-register index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
