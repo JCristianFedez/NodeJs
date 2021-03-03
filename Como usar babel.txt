@@ -2,6 +2,8 @@ http://w3.unpocodetodo.info/jsblog/es6-babel.php
 
 "La configuracion del package.json del punto 8 se sustituye por el .babelrc"
 
+Comando: npm install babel-cli babel-preset-env --save-dev
+
 Ademas crear archivo 
 
 .babelrc con el siguiente contenido
