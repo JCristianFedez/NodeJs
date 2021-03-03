@@ -1,0 +1,9 @@
+Descargar e instalar:
+https://www.postgresql.org/download/windows/
+
+
+INstalar dependencia sequelize
+npm install --save sequelize
+
+instalar dependencias postgre:
+npm install postgresql --save-dev

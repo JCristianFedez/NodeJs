@@ -1,0 +1,8 @@
+https://www.mongodb.com/try/download/community?tck=docs_server
+
+
+Dependencias (Comando dentro del npm init):
+npm install mongoose --save-dev
+
+Para usar en terminal:
+https://funnyfrontend.com/instalar-mongodb-y-uso-de-comandos-basicos/#:~:text=Para%20a%C3%B1adir%20mongodb%20a%20tu,%5CServer%5C3.0%5Cbin.

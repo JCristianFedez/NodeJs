@@ -1,0 +1,23 @@
+{
+  "name": "cap15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "babel": "babel src/index.js --watch --out-file src/index-compiled.js",
+    "build": "babel src/index.js --out-file src/index-compiled.js",
+    "start": "node --require babel-register src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "postgresql": "0.0.1",
+    "sequelize": "^6.5.0"
+  },
+  "dependencies": {
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3"
+  }
+}

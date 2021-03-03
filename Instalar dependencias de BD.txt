@@ -1,0 +1,8 @@
+Para los que tenga problemas con este gestor o simplemente les parezca extraño, pueden hacerlo con cualquiera, incluso MariaDB/MySQL
+Podéis elegir las dependencias dependiendo del motor de BD
+npm install --save sequelize
+$ npm install --save pg pg-hstore # Postgres
+$ npm install --save mysql2
+$ npm install --save mariadb
+$ npm install --save sqlite3
+$ npm install --save tedious # Microsoft SQL Server
