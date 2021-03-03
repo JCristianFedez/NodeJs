@@ -23,7 +23,10 @@ app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
     // res.end("Hola Mundo Express");
-    res.render("home");
+    res.render("home", {
+        title: "Trabajando con templates",
+        message: "Nuestro primer layout con variables"
+    });
 });
 
 app.listen("9000", () => {
