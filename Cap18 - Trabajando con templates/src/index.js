@@ -27,6 +27,8 @@ app.get("/", (req, res) => {
         title: "Trabajando con templates",
         message: "Nuestro primer layout con variables"
     });
+
+    res.end();
 });
 
 app.listen("9000", () => {
