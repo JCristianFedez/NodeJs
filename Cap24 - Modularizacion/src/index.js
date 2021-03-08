@@ -8,10 +8,13 @@ import router from "./router";
 const app = express();
 app.disable("x-powered-by");
 
-app.set("env", "development");
+app.set("env", process.env.NODE_ENV);
+if (process.env.NODE_ENV != "test") {
+    // Usando middleware morgan
+    app.use(morgan("combined"));
+}
 
-// Usando middleware morgan
-app.use(morgan("combined"));
+
 
 // Usando middlware bodyParse
 app.use(bodyParse.json());
@@ -27,7 +30,7 @@ app.set("view engine", "pug");
 router(app);
 
 // Usar ficheros estaticos del directorio public(En este ejemplo los css y js)
-app.use("/static" , express.static(path.join(__dirname, "public")));
+app.use("/static", express.static(path.join(__dirname, "public")));
 
 
 app.use((req, res, next) => {
