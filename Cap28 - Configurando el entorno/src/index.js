@@ -22,6 +22,6 @@ const server = {
 
 export default server;
 
-if(!module.main){
+if(!module.parent){
     server.start();
 }
